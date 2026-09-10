@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         # https://nodejs.org/en/about/previous-releases
         node-version: [22.x, 24.x, 26.x]
